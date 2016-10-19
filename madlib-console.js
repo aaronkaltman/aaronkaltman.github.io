@@ -1,5 +1,6 @@
-var startupX = ["puppies","kittens","computers","keyboards","pens","calculators"];
+var startupX = ["puppies","kittens","computers","keyboards","pens","calculators","sports"];
 
-var startupY =  ["cars","sloth","shoes", "music","backpacks"];
+var startupY =  ["cars","sloth","shoes", "music","backpacks","jeans","yoga","private","news"];
 
-console.log(startupX + startupY);
+
+console.log("A startup that is 'startupX' but for y");

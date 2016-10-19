@@ -1,4 +1,13 @@
-.createnew {
+.createnew,.favorite,.printfavorites {
     padding:20px;
-    background-color:red;
+    background-color:black;
+    margin-top:20px;
+    color:white;
+    border:1px solid black;
+    margin-right:20px;
+    margin-left:20px;
+}
+.createnew:hover,.favorite:hover, .printfavorites:hover{
+    background-color:white;
+    color:black;
 }
