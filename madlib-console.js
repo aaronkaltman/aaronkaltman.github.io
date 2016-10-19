@@ -6,7 +6,7 @@ var startupY =  ["cars","sloth","shoes", "music","backpacks","jeans","yoga","pri
 document.getElementById("cnew").onclick = function() {myFunction()};
 
 function myFunction() {
-    document.getElementById("cnew").innerHTML = "YOU CLICKED ME!";
+    document.getElementById("XforY").innerHTML = "YOU CLICKED ME!";
 }
 
 //Outputs a string containing two variables
