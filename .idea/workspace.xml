@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89124b32-47c3-4d99-8e52-2064b5318b71" name="Default" comment="addded some html">
+    <list default="true" id="89124b32-47c3-4d99-8e52-2064b5318b71" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/madlib-console.js" afterPath="$PROJECT_DIR$/madlib-console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startups.css" afterPath="$PROJECT_DIR$/startups.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startups.html" afterPath="$PROJECT_DIR$/startups.html" />
     </list>
     <ignored path="aaronkaltman.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -263,7 +260,7 @@
       <workItem from="1476734556294" duration="22000" />
       <workItem from="1476829865225" duration="7202000" />
       <workItem from="1476884786079" duration="16000" />
-      <workItem from="1476884817777" duration="6034000" />
+      <workItem from="1476884817777" duration="6051000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1476892548664</created>
@@ -314,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476899762288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="addded some html">
+      <created>1476900417900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1476900417900</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17316000" />
+    <option name="totallyTimeSpent" value="17333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1142" height="856" extended-state="0" />
