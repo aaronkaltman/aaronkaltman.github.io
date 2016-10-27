@@ -1,0 +1,28 @@
+/*
+//get the highest value in random list of numbers
+//random list of numbers
+var randomList = [34,456,3451,4,2039,4,5,6,7,239,-34,23049827034,3];
+// sort the values from highest to lowest
+randomList.sort(function(a, b) {return b-a});
+//output the highest value which is now in the first position
+console.log(randomList[0])
+*/
+/*
+//Determine if the largest number is prime
+var randomList = [34,456,3451,4,2039,4,5,6,7,239,-34,23049827034,3];
+// sort the values from highest to lowest
+randomList.sort(function(a, b) {return b-a});
+//output the highest value which is now in the first position
+console.log(randomList[0]);
+// is the number prime?
+console.log(primed(randomList));
+function primed(val){
+    for(var j = 2; j < val; j++){
+        if (val % j ==0){
+            return false;
+        }
+    }
+    return true;
+}
+*/
+
