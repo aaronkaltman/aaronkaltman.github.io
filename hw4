@@ -1,0 +1,31 @@
+/**
+ * Created by aaronkuniansky-altman on 11/3/16.
+ */
+var bottles;
+
+    for (counter = 99; counter >= 1; counter = counter - 1) {
+        if (counter == 1) {
+            bottles = 'bottle';
+        } else {
+            bottles = 'bottles';
+        }
+        console.log (counter + " " + bottles + " of beer on the wall.");
+        if (counter < 99) {
+            return ("");
+            return(counter + " " + bottles + " of beer on the wall.");
+        }
+        return(counter + " " + bottles + " of beer.");
+        return("Take one down.");
+        return("Pass it around.");
+        if (counter == 1) {
+            return("No bottles of beer on the wall.");
+        }
+    }
+
+
+$("sing-a-song").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+    $("99bottles").innerHTML = sing();
+}
