@@ -1,31 +1,23 @@
 /**
- * Created by aaronkuniansky-altman on 11/3/16.
+ * Created by AKA on 10/16/16.
  */
-var bottles;
-
-    for (counter = 99; counter >= 1; counter = counter - 1) {
-        if (counter == 1) {
-            bottles = 'bottle';
-        } else {
-            bottles = 'bottles';
-        }
-        console.log (counter + " " + bottles + " of beer on the wall.");
-        if (counter < 99) {
-            return ("");
-            return(counter + " " + bottles + " of beer on the wall.");
-        }
-        return(counter + " " + bottles + " of beer.");
-        return("Take one down.");
-        return("Pass it around.");
-        if (counter == 1) {
-            return("No bottles of beer on the wall.");
-        }
+//declarations of variables
+var currentCount, mainPhrase, midPhrase, lastPhrase, lastPhraseCount, bottleResult1, bottleResult2, MAX = 99, i = MAX, NO_MORE = 'No more', BEER_PHRASE = ' of beer', WALL_PHRASE = ' on the wall';
+while (i >= 0) {  //while loop will decrement from the MAX to 0;
+    currentCount = (i != 0) ? i : NO_MORE;
+    bottleResult1 = (i != 1)?' bottles':' bottle';
+    shortPhrase = currentCount + bottleResult1 + BEER_PHRASE;
+    mainPhrase = shortPhrase + WALL_PHRASE;
+    lastPhraseCount = i-1;
+    midPhrase = (i != 0) ? 'Take one down and pass it around' : 'Go to the store and buy some more';
+    bottleResult2 = (lastPhraseCount != 1)?' bottles':' bottle';
+    lastPhrase = bottleResult2 + BEER_PHRASE + WALL_PHRASE;
+    if (lastPhraseCount < 0) {
+        lastPhraseCount = MAX;
+    } else if (lastPhraseCount == 0) {
+        lastPhraseCount = NO_MORE;
     }
-
-
-$("sing-a-song").onclick = function() {myFunction()};
-
-/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-function myFunction() {
-    $("99bottles").innerHTML = sing();
+    lastPhrase = lastPhraseCount + lastPhrase;
+    console.log("%s, %s.\n %s, %s. \r", mainPhrase, shortPhrase.toLowerCase(), midPhrase, lastPhrase.toLowerCase());
+    i--; //decrement i variable by 1
 }
